@@ -7,8 +7,8 @@ require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 
-define("CLIENT_ID", "0e60bda7e475412188323fe22fde5f2b");
-define("CLIENT_SECRET", "ae2c135c3ca44890befe4c8bff3523e0");
+define("CLIENT_ID", "TU_ID_CLIENTE");
+define("CLIENT_SECRET", "TU_SECRET_KEY");
 define("REDIRECT_URL", "http://localhost:9000/confirm.php");
 
 if ($_SESSION['auth']) {
